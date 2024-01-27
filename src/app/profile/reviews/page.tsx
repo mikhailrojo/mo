@@ -8,7 +8,7 @@ import andy from '../assets/andy.png'
 import jack from '../assets//jack.jpeg'
 import sandra from '../assets/sandra.png'
 
-export default () => {
+const ReviewsPage: React.FC = () => {
   // Sample data
   const name = 'Mo Rokeeb';
   const approvedContacts = [
@@ -79,3 +79,5 @@ export default () => {
     </div>
   );
 };
+
+export default ReviewsPage

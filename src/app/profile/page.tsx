@@ -83,7 +83,7 @@ export default ProfilePage;
 const EmailInput = () => {
   const [email, setEmail] = useState('');
 
-  const handleEmailChange = (e) => {
+  const handleEmailChange = (e: any) => {
     setEmail(e.target.value);
   };
 
